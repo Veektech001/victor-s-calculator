@@ -56,4 +56,18 @@ button:active {
 }
 .operator-btn:active {
     background-color:hsl(35, 100%, 75%) ;
+
+    @media screen and (max-width:500px) {
+    button {
+        width:80px ;
+        height: 80px;
+        border-radius: 50px;
+        border: none;
+        background-color: hsl(0, 0%, 30%);
+        color:white;  
+        font-size: 3rem; 
+        font-weight: bold;   
+        cursor: pointer;    
+    }         
+}
 }
